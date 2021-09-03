@@ -14,6 +14,7 @@ BASE_DB_URI = "http://graphdb.nonprod.ggic.vocabs.ga.gov.au/repositories/vocabs-
 WEBSITE_URL = "http://nonprod.ggic.vocabs.ga.gov.au"
 
 
+
 DB_USERNAME = os.environ.get("DB_USERNAME", None)
 DB_PASSWORD = os.environ.get("DB_PASSWORD", None)
 
