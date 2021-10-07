@@ -482,4 +482,3 @@ cs: a skos:ConceptScheme ;
   rdfs:subClassOf xsd:string ;
   skos:prefLabel "Local Hierarchy Key"@en ;
 .
-
