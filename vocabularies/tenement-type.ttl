@@ -878,4 +878,3 @@ cs: a skos:ConceptScheme ;
     skos:prefLabel "GGIC Tenement Type"@en ;
     dcterms:provenance "This vocabulary is expressed for the first time here" ;
     dcterms:source "This vocabulary is expressed for the first time here" .
-
