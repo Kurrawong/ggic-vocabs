@@ -9,9 +9,9 @@ import os
 
 DB_TYPE = "graphdb" # options: "fuseki" | "graphdb"
 #BASE_DB_URI = "http://fuseki.surroundaustralia.com/ggic-vocabs"
-BASE_DB_URI = "http://graphdb.nonprod.ggic.vocabs.ga.gov.au/repositories/vocabs-ggic"
+BASE_DB_URI = "http://graphdb.ggic.vocabs.ga.gov.au/repositories/vocabs-ggic"
 #WEBSITE_URL = "http://ggic.surroundaustralia.com"
-WEBSITE_URL = "http://nonprod.ggic.vocabs.ga.gov.au"
+WEBSITE_URL = "http://ggic.vocabs.ga.gov.au"
 
 
 
