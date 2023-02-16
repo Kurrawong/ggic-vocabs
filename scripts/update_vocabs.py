@@ -7,13 +7,9 @@ from rdflib import Graph, URIRef
 from rdflib.namespace import RDF, SKOS
 import os
 
-DB_TYPE = "graphdb" # options: "fuseki" | "graphdb"
-#BASE_DB_URI = "http://fuseki.surroundaustralia.com/ggic-vocabs"
-BASE_DB_URI = "http://graphdb.ggic.vocabs.ga.gov.au/repositories/vocabs-ggic"
-#WEBSITE_URL = "http://ggic.surroundaustralia.com"
-WEBSITE_URL = "http://ggic.vocabs.ga.gov.au"
-
-
+DB_TYPE = "graphdb"  # options: "fuseki" | "graphdb"
+BASE_DB_URI = os.environ.get("BASE_DB_URI", None)
+WEBSITE_URL = os.environ.get("WEBSITE_URL", None)
 
 DB_USERNAME = os.environ.get("DB_USERNAME", None)
 DB_PASSWORD = os.environ.get("DB_PASSWORD", None)
