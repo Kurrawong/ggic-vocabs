@@ -1125,8 +1125,9 @@ cs:
     schema:citation "This vocabulary is expressed for the first time here" ;
     owl:versionInfo "v0.1"^^xsd:string ;
     skos:changeNote
-        "2016-07-22 OLR - Reformat SKOS-RDF for migration to new repository"@en ,
-        "Original SKOS implementation, 26 Nov 2015."@en ;
+        "2024-10-16 NJC: update to be VocPub 4.10 valid" ,
+        "2016-07-22 OLR: Reformat SKOS-RDF for migration to new repository" ,
+        "2015-11-26: Original SKOS implementation" ;
     skos:definition "This concept scheme defines terms used to describe the type of mineral tenements granted in Australian and New Zealand jurisdictions (eg, exploration licence, mining lease)."@en ;
     skos:editorialNote "This file contains the 2015 version of the GGIC mineral temement type vocabulary. Compilation and review in MS-Excel spreadsheet, converted to SKOS using GSML_SKOS_fromXLS_2015.02.xslt."@en ;
     skos:hasTopConcept

@@ -555,10 +555,11 @@ cs:
     schema:publisher <https://linked.data.gov.au/org/agson> ;
     owl:versionInfo "v0.1"^^xsd:string ;
     skos:changeNote
-        "2016-07-22 OLR - Reformat SKOS-RDF for new repository"@en ,
-        "Added \"grant\" (not \"granted\") from NTGS, 15 Dec 2015"@en ,
-        "On the advice of Dave Higgins, removed 'Section 16A'"@en ,
-        "Original SKOS implementation, 26 Sept 2015."@en ;
+        "2024-10-16 NJC: update to be VocPub 4.10 valid" ,
+        "2016-07-22 OLR: Reformat SKOS-RDF for new repository" ,
+        "2015-12-15: Added \"grant\" (not \"granted\") from NTGS" ,
+        "On the advice of Dave Higgins, removed 'Section 16A'" ,
+        "2015-09-29: Original SKOS implementation" ;
     skos:definition "This concept scheme defines terms used to describe the status of mineral tenements in Australian and New Zealand jurisdictions (eg, granted, application, expired)."@en ;
     skos:editorialNote "This file contains the 2016.01 version of the GGIC mineral temement status vocabulary. Compilation and review in MS-Excel spreadsheet, converted to SKOS using GSML_SKOS_fromXLS_2015.03.xslt." ;
     skos:hasTopConcept
