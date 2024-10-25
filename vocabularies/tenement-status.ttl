@@ -549,7 +549,7 @@ cs:
     a skos:ConceptScheme ;
     schema:dateCreated "2015-12-15"^^xsd:date ;
     schema:creator <https://linked.data.gov.au/org/agson> ;
-    schema:dateIddued "2017-09-06"^^xsd:string ;
+    schema:dateIssued "2017-09-06"^^xsd:string ;
     schema:dateModified "2024-10-16"^^xsd:date ;
     skos:historyNote "This vocabulary is expressed for the first time here" ;
     schema:publisher <https://linked.data.gov.au/org/agson> ;
