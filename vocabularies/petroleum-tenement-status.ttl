@@ -965,7 +965,8 @@ cs:
     skos:changeNote
         "2024-10-16 NJC: update to be VocPub 4.10 valid" ,
         "2021-06-14 OLR: Original SKOS implementation" ,
-        "2021-07-05 Nicholas Car & Vaughan Edgell: SKOS implementation aligned with VocPub vocabulary profile for display" ;
+        "2021-07-05 Nicholas Car & Vaughan Edgell: SKOS implementation aligned with VocPub vocabulary profile for display" ,
+        "2025-06-04 NJC Updates metadata to meet the VocPub 5.1 profile"@en ;
     skos:definition "This vocabulary maps all terms used by Australian State, Territory and Commonwealth jurisdictions to describe the status of petroleum tenement to a common simplified classification."@en ;
     skos:hasTopConcept
         :application ,
